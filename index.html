@@ -1,88 +1,58 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	 <style>
-		 table{width:100%;}
-#header {
-    background-color:black;
-    color:white;
-    text-align:center;
-    padding:5px;
-}
-#nav {
-    line-height:30px;
-    background-color:#eeeeee;
-    height:300px;
-    width:100px;
-    float:left;
-    padding:5px;
-}
-#section {
-    width:350px;
-    float:left;
-    padding:10px;
-}
-#footer {
-    background-color:black;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:5px;
-}
-</style> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuny</title>
+    <link rel="stylesheet" href="./frontPage.css" />
+    <script
+    src="https://kit.fontawesome.com/c8e4d183c2.js"
+    crossorigin="anonymous"
+  ></script>
 </head>
- <body>
-<table>
-	<tr>
-<th id="header" colspan="2">
-<h1></h1>
-</th>
-</tr>
-<tr>
-	
-<td id="nav">
-London<br>
-Paris<br>
-Tokyo<br>
-</td>
-<td id="nav">
-    <a href="london.html">London</a><br>
-    <a href="paris.html">Paris</a><br>
-    <a href="tokyo.html">Tokyo</a><br>
-    </td>
+<body>
+    <section>
+       <nav class="nav">
+        <div class="nav__container">
+          <div class="div_beg">
+          <img
+            class="logo"
+            src="./assets/CUNY-175-logo.png"
+            alt=""
 
-<td id="section">
-    <table style="width:800px">
-        <tr><td style="width:60%">
-            <h1>Tokyo</h1>
-            <p> Tokyo, officially Tokyo Metropolis, is the capital of Japan and one of its 47 prefectures. The Greater
-                Tokyo Area is the most populous metropolitan area in the world. It is the seat of the Emperor of Japan
-                and the Japanese government. </p>
-            <p>Tokyo is in the Kanto region on the southeastern side of the main island Honshu and includes the Izu
-                Islands and Ogasawara Islands. Formerly known as Edo, it has been the de facto seat of government
-                since 1603 when Shogun Tokugawa Ieyasu made the city his headquarters. 
-            </p>
-            <p>
-                Tokyo officially became the capital after Emperor Meiji moved his seat to the city from the old
-        capital of Kyoto in 1868; at that time Edo was renamed Tokyo. Tokyo Metropolis was formed in 1943 from
-        the merger of the former Tokyo Prefecture and the city of Tokyo.    
-            </p>
-        </td>
-    <td style="width:60%">
-    <img src="tokyo.jpg" style="width:80%"/>
-</td></tr>
-    </table>
-    </td>
-    </tr>
-
-
-</td>
-</tr>
-<tr>
-<td id="footer" colspan="2">
-Copyright © W3Schools.com
-</td>
-</tr>
-</div>
-</table>
-</body> 
+          />
+        </div>
+          <ul class="nav__links">
+            <li><a href="#" class="nav__link">About</a></li>
+            <li><a href="#" class="nav__link">Academics</a></li>
+            <li><a href="#" class="nav__link">Admissions</a></li>
+            <li><a href="#" class="nav__link">Financial Aid</a></li>
+            <li><a href="#" class="nav__link">Research</a></li>
+            <li><a href="#" class="nav__link">Login</a></li>
+            <li class="sign__up">
+                <a href="#" class="nav__link sign__up--color">Mental Health</a>
+            </li>
+            <li class="sign__up">
+                <a href="#" class="nav__link sign__up--color">Apply</a>
+            </li>
+            <li class="sign__up">
+                <a href="#" class="nav__link sign__up--color">COVID Info</a>
+            </li>
+            <li class="sign__up sign_menu">
+            <i class="fas fa-bars"></i>
+              <a href="#" class="nav__link sign__up--color">Menu</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <header>
+    <section>
+        <div class="container__head">
+        <video class="cuny__video" id="merivideo" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" preload="none" src="https://www.cuny.edu/wp-content/uploads/sites/4/video/Montage_Draft_3.mp4" type="video/mp4"></video>
+        </div>
+    </section>
+    </header>
+</body>
 </html>
