@@ -73,12 +73,44 @@ h2:first-child {
         margin-bottom: 20px;
       }
 button{
-    font-size: 12px;
-    border-radius: 9999px;
+  
     border-width: 0;
     font-weight: bold;
     cursor: pointer;
     }
+.button{
+    border-width: 0;
+    font-weight: bold;
+     background-color: navy;
+        border: none;
+        color: white;
+        text-align: center;
+        padding: 14px 0;
+        margin: 20px 0px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 80%;
+}
+
+.button__share {
+   border-width: 0;
+    font-weight: bold;
+     background-color: white;
+        border: none;
+        color: #242424;
+        text-align: center;
+        padding: 14px 0;
+        margin: 20px 0px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 80%;
+}
 .row::after{
         content:"";
         clear:both;
@@ -147,7 +179,12 @@ h1 {
 }
 
 h2 {
-    font-size: 44px;
+    font-size: 26px;
+}
+
+
+h3 {
+    font-size: 18px;
 }
 
 .container{
@@ -159,6 +196,7 @@ h2 {
     margin: 0 auto;
     padding: 0 40px;
 }
+
 
 nav {
     height: 80px;
@@ -227,8 +265,8 @@ li {
  }  
  .sign__up--color {
     color: #0033a1;
-     display: flex;
-align-items: center;  
+    display: flex;
+    align-items: center;  
     margin: 0 5px;
 }
 
@@ -246,4 +284,131 @@ align-items: center;
 .section__one {
   display: flex;
   flex-direction: column;
+}
+
+#contact-content{
+  font-size: 1.5em;
+}
+
+
+
+.tweet-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweet {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tweet img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tweet-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweet-content h3 {
+  margin: 0;
+}
+
+.share-form {
+  margin-top: 20px;
+  border-radius: 999px;
+  background-color:#0033a1;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  
+}
+
+.dropdown-content {
+  margin-top: 10px;
+}
+
+.share-form h3 {
+  margin-bottom: 20px;
+}
+
+.share-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.share-form input[type="text"],
+.share-form select,
+.share-form input[type="url"],
+.share-form textarea {
+  width: 100%;
+  padding: 2px 0px;
+}
+
+.server-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.server {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  text-align: center;
+}
+
+.server h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.server p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.join-btn {
+  background-color:#0033a1;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.chat {
+  display: none;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.chat h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin-bottom: 
+    /*Margin-bottom needs a value */
 }

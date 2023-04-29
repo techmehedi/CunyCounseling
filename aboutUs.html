@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Video Page</title>
+	<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+		/* center the main container */
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+
+		/* style for the video box */
+		.video-box {
+			width: 80%;
+			height: 500px;
+			background-color: black;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 50px;
+		}
+
+		/* style for the description box */
+		.description-box {
+			width: 80%;
+			padding: 30px;
+			background-color: white;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+			text-align: center;
+			font-size: 18px;
+		}
+
+    
+
+		/* style for the top row */
+		.top-row {
+			width: 80%;
+			display: flex;
+			align-items: center;
+			margin-bottom: 50px;
+       display: flex;
+     justify-content: center;
+		}
+
+		/* style for the top row image */
+		.top-row img {
+			height: 100px;
+			width: 100px;
+			object-fit: cover;
+			border-radius: 50%;
+			margin-right: 20px;
+		}
+
+		/* style for the top row text */
+		.top-row h1 {
+			font-size: 24px;
+		}
+    nav {
+    height: 80px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.nav__container {
+    width: 100%;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    width: 220px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.feature__title {
+    font-weight: 700;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav__link {
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #0033a1;
+    font-weight: none;
+    padding: 8px;
+    font-weight: 500;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.nav__link--primary {
+    border: 2px solid rgba(100,21,255);
+    border-radius: 4px;
+}
+
+ .nav__link--primary:hover {
+    text-decoration: none;
+ }
+	</style>
+</head>
+<body>
+  <section>
+       <nav class="nav">
+        <div class="nav__container">
+          <div class="div_beg">
+            <a href=index.html>
+              <img
+                class="logo"
+                src="./CUNY-175-logo.jpg"
+                alt=""
+              />
+            </a>
+        </div>
+          <ul class="nav__links">
+            <li><a href="#" class="nav__link">About</a></li>
+            <li><a href="#" class="nav__link">Academics</a></li>
+            <li><a href="#" class="nav__link">Admissions</a></li>
+            <li><a href="#" class="nav__link">Financial Aid</a></li>
+            <li><a href="#" class="nav__link">Research</a></li>
+            <li class="sign__up">
+                <a href="logIn.html" class="nav__link sign__up--color">Mental Health</a>
+            </li>
+            <li class="sign__up">
+                <a href="#" class="nav__link sign__up--color">Apply</a>
+            </li>
+            <li class="sign__up">
+                <a href="#" class="nav__link sign__up--color">COVID Info</a>
+            </li>
+            <li class="sign__up sign_menu">
+            <i class="fas fa-bars"></i>
+              <a href="#" class="nav__link sign__up--color">Menu</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+	<div class="container">
+		<div class="top-row">
+			<h1>About us</h1>
+		</div>
+		<div class="video-box">
+			<!-- you can embed your video player here -->
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		
+	</div>
+</body>
+</html>

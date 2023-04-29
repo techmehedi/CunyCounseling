@@ -10,12 +10,13 @@
        <nav class="nav">
         <div class="nav__container">
           <div class="div_beg">
-          <img
-            class="logo"
-            src="./CUNY-175-logo.jpg"
-            alt=""
-
-          />
+            <a href=index.html>
+              <img
+                class="logo"
+                src="./CUNY-175-logo.jpg"
+                alt=""
+              />
+            </a>
         </div>
           <ul class="nav__links">
             <li><a href="#" class="nav__link">About</a></li>
@@ -23,7 +24,6 @@
             <li><a href="#" class="nav__link">Admissions</a></li>
             <li><a href="#" class="nav__link">Financial Aid</a></li>
             <li><a href="#" class="nav__link">Research</a></li>
-            <li><a href="#" class="nav__link">Login</a></li>
             <li class="sign__up">
                 <a href="logIn.html" class="nav__link sign__up--color">Mental Health</a>
             </li>
@@ -45,10 +45,8 @@
       
         <div class="column" style="background:white">
                 <h2 class="section__one">
-                        Awareness Buddy
-                        <button class="h2-btn" onclick="window.location.href='';">
-                          Talk to me!
-                        </button>
+                        Mental Health Buddy
+                <button class="h2-btn" onclick="window.open('https://0ed1bed118b56fad48.gradio.live/', '_blank')">Talk to me!</button>
                 </h2>
                 <h2 class="section__one">
                         Schedule Appointment
@@ -59,28 +57,127 @@
                 <h2>
                         Upcoming
                         <div class="dropdown-content">
-                        <form>
+                        <form class="form__upcoming">
                                 <textarea rows="4" cols="30" placeholder="Enter your text here..."></textarea>
                                 <br>
-                                <input type="submit" value="Save">
+                                <input class="h2-btn button" type="submit" value="Save">
                         </form>
                         </div>
-                </h2>
-                <h2>
-                        Contact
+                </h2> 
+                <h3>  
+                        Councelor Center
                         <div class="contact-content">
-                                <p>Your saved contact information would appear here.</p>
+                                <p>Number: (212) 220-8140</p>
                         </div>
-                </h2>
+                </h3>
+                  <button class="contact-btn" onclick="window.location.href='./settings.html';">Settings</button>
+        <button class="contact-btn" onclick="window.location.href='./logIn.html';">Log Out</button>
+        <button class="contact-btn" onclick="window.location.href='./aboutUs.html';">About Us</button>
         </div>
         <div class="column" style="background:white">
                 <h2>Resources</h2>
-                <p></p>
+          <section id="twitter-like-section">
+  <div class="tweet-container">
+    <div class="tweet">
+      <img src="JPEG_image52.jpg" alt="Profile picture">
+      <div class="tweet-content">
+        <h3>@Peden</h3>
+        <p>Need some class work motivation, who can help? #mentalhealth #selfcare</p>
+      </div>
+    </div>
+    <div class="tweet">
+      <img src="./68227735283__8E131F18-86B8-496D-B9E1-B924C2D1274A.jpg" alt="Profile picture">
+      <div class="tweet-content">
+        <h3>@Jhonnyboy</h3>
+        <p>Just wanted to share some tips for managing anxiety: 1. Deep breathing 2. Progressive muscle relaxation 3. Exercise 4. Journaling #mentalhealth #anxiety</p>
+      </div>
+    </div>
+    <div class="tweet">
+      <img src="./1670264120747 (1).jpeg" alt="Profile picture">
+      <div class="tweet-content">
+        <h3>@mehedihasan</h3>
+        <p>Anyone have any suggestions for podcasts or books about mental health? #mentalhealthawareness #selfimprovement</p>
+      </div>
+    </div>
+  </div>
+  <div class="share-form">
+    <h3>Share your own resources</h3>
+    <form>
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div>
+        <label for="resource-type">Type of resource:</label>
+        <select id="resource-type" name="resource-type">
+          <option value="article">Article</option>
+          <option value="video">Video</option>
+          <option value="podcast">Podcast</option>
+          <option value="book">Book</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div>
+        <label for="resource-link">Link:</label>
+        <input type="url" id="resource-link" name="resource-link" required>
+      </div>
+      <div>
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment"></textarea>
+      </div>
+      <button class="button__share" type="submit">Share</button>
+    </form>
+  </div>
+</section>
+
         </div>
         <div class="column" style="background:white">
                 <h2>Servers</h2>
-                <p></p>
-        </div>
+          <div class="server-list">
+  <div class="server">
+    <h2>Mental Health Support</h2>
+    <p>A server for discussing mental health related topics and seeking support.</p>
+    <button class="join-btn">Join Server</button>
+    <div class="chat">
+      <h3>Mental Health Support</h3>
+      <div class="message">
+        <p><strong>John:</strong> Hi, does anyone have any advice for dealing with anxiety?</p>
+      </div>
+      <div class="message">
+        <p><strong>Jane:</strong> Hey John, have you tried deep breathing exercises?</p>
+      </div>
+      <div class="message">
+        <p><strong>Mark:</strong> I find exercise helps a lot with my anxiety. Have you tried going for a run or doing yoga?</p>
+      </div>
+      <form>
+        <input type="text" placeholder="Type your message here">
+        <button class="send-btn">Send</button>
+      </form>
+    </div>
+  </div>
+  <div class="server">
+    <h2>Depression Support</h2>
+    <p>A server for discussing depression related topics and seeking support.</p>
+    <button class="join-btn">Join Server</button>
+    <div class="chat">
+      <h3>Depression Support</h3>
+      <div class="message">
+        <p><strong>Emma:</strong> Hi everyone, I'm feeling really down today. Does anyone want to chat?</p>
+      </div>
+      <div class="message">
+        <p><strong>Adam:</strong> Hey Emma, what's been going on?</p>
+      </div>
+      <div class="message">
+        <p><strong>Sara:</strong> Hang in there Emma, we're here for you.</p>
+      </div>
+      <form>
+        <input type="text" placeholder="Type your message here">
+        <button class="send-btn">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+  </div>
 </div>
 
   
