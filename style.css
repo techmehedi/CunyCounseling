@@ -1,4 +1,141 @@
-html {
-  height: 100%;
-  width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 44px;
+}
+
+.head_title {
+    font-size: 30px;
+    color: #46444a;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_beg {
+    display: flex;
+
+}
+
+
+
+.container{
+    padding: 80px 0;
+}
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.nav__container {
+    width: 100%;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    width: 220px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.feature__title {
+    font-weight: 700;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav__link {
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #0033a1;
+    font-weight: none;
+    padding: 8px;
+    font-weight: 500;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.nav__link--primary {
+    border: 2px solid rgba(100,21,255);
+    border-radius: 4px;
+}
+
+ .nav__link--primary:hover {
+    text-decoration: none;
+ }
+
+ .sign__up {
+    border: 2px solid #0033a1;
+    border-radius: 20px;
+    margin-left: 12px;
+ }  
+ .sign__up--color {
+    color: #0033a1;
+     display: flex;
+align-items: center;  
+    margin: 0 5px;
+}
+
+.sign_menu {
+    display: flex;
+}
+
+.fa-bars {
+    color: #0033a1;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.fa-magnifying-glass {
+    color: #0033a1;;
+    
+}
+
+.cuny__video {
+    width: 100%;
+  border-radius: 20px;
+}
+
+.container__head {
+    padding: 40px 80px;
+  background-color: navy;
 }

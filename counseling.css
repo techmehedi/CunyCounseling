@@ -1,0 +1,249 @@
+#header{
+        width:100%;
+        height:80px;    
+        background:Darkblue;
+        position:absolute;
+        
+        }
+        
+#content{
+        
+        width:100%;
+        height:100%;    
+        background:navy;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+.column{
+        margin-top: 20px;
+        float: left;
+        position: relative;
+        width: 30%;
+        height: 100%;
+        
+        }
+
+.column {
+        border: 1px solid black;
+        border-radius: 10px;
+        float: left;
+        width: 40%;
+        padding: 10px;
+        text-align: center;
+        }
+              
+html{
+        height:100%;
+        }
+
+body{
+        height: 100%;
+        margin: 0;
+        }
+
+h1{
+        position:absolute;
+        left:600px;
+}
+
+h2{
+        border: 2px solid black;
+        padding: 5px;
+        margin: 0;
+        border-radius: 5px;
+        margin-bottom:20px;
+}
+.h2-btn{
+        background-color: darkblue;
+        border: none;
+        color: white;
+        text-align: center;
+        padding: 14px 0;
+        margin: 20px 40px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+}
+h2:first-child {
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+button{
+    font-size: 12px;
+    border-radius: 9999px;
+    border-width: 0;
+    font-weight: bold;
+    cursor: pointer;
+    }
+.row::after{
+        content:"";
+        clear:both;
+        display:table;
+    }
+.modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.4);
+      }
+.modal-content {
+        background-color: #fefefe;
+        margin: 10% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+      }
+.close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+.close:hover, .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+table {
+        border-collapse: collapse;
+      }
+      
+th {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid black;
+      }
+      
+td {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid black;
+      }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 44px;
+}
+
+.container{
+    padding: 80px 0;
+}
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.nav__container {
+    width: 100%;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    width: 220px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.feature__title {
+    font-weight: 700;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav__link {
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #0033a1;
+    font-weight: none;
+    padding: 8px;
+    font-weight: 500;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.nav__link--primary {
+    border: 2px solid rgba(100,21,255);
+    border-radius: 4px;
+}
+
+ .nav__link--primary:hover {
+    text-decoration: none;
+ }
+
+ .sign__up {
+    border: 2px solid #0033a1;
+    border-radius: 20px;
+    margin-left: 12px;
+ }  
+ .sign__up--color {
+    color: #0033a1;
+     display: flex;
+align-items: center;  
+    margin: 0 5px;
+}
+
+.sign_menu {
+    display: flex;
+}
+
+.fa-bars {
+    color: #0033a1;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+.section__one {
+  display: flex;
+  flex-direction: column;
+}

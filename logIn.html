@@ -1,18 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuny</title>
-    <link rel="stylesheet" href="./style.css" />
-    <script
-    src="https://kit.fontawesome.com/c8e4d183c2.js"
-    crossorigin="anonymous"
-  ></script>
-</head>
-<body>
-    <section>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./login.css">
+  </head>
+  <body>
+     <section>
        <nav class="nav">
         <div class="nav__container">
           <div class="div_beg">
@@ -47,12 +41,16 @@
         </div>
       </nav>
     </section>
-    <header>
-    <section>
-        <div class="container__head">
-        <video class="cuny__video" id="merivideo" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" preload="none" src="https://www.cuny.edu/wp-content/uploads/sites/4/video/Montage_Draft_3.mp4" type="video/mp4"></video>
-        </div>
-    </section>
-    </header>
-</body>
+    <div class="container">
+      <form>
+        <h1 style="text-align:center; color:black">Login Page</h1>
+        <label for="username">Student Email:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <button type="button" onclick="checkLogin()">Login</button>
+        <script src="logInButton.js"></script>
+      </form>
+    </div>
+  </body>
 </html>
